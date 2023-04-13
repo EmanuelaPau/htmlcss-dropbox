@@ -282,13 +282,20 @@ div.accordion {
 
 section.footer-container {
     justify-content: space-between;
+
+    padding: 5rem 0;
 }
 
 div.footer-column {
+    flex-direction: column;
+
     width: calc((100% / 5) - 3%);
-    height: 600px;
-    background-color: #a2d39b;
     border-color: 2px solid white;
+}
+
+div.footer-language {
+    flex-direction: row;
+    align-items: center;
 }
 
 /* UTILITIES */
