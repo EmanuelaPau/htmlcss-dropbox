@@ -233,6 +233,19 @@ div.logo-square img{
     filter: invert();
 }
 
+div.designit-info-cta {
+    justify-content: center;
+    align-items: center;
+
+    padding: 3rem;
+    background-color: #b4d0e7;
+}
+
+div.designit-info-cta h2{
+    width: ;
+    margin-right: 10rem;
+}
+
 
 /* FOOTER */
 
@@ -282,9 +295,14 @@ section.jumbotron {
 .button-white {
     border: 1px solid black;
     border-radius: none;
+    background-color: white;
     color: black
     font-size: .9rem;
     padding: .5rem .9rem;
+}
+
+.border-none {
+    border: none;
 }
 
 .radio-button {
