@@ -10,6 +10,9 @@ body{
     font-size: 1rem;
 }
 
+header {
+}
+
 /* Texts */
 
 h1 {}
@@ -19,6 +22,27 @@ h2 {}
 h3 {}
 
 /* HEADER */
+
+section.header-nav {
+    justify-content: space-between;
+
+    padding: 1.2rem;
+    height: 70px;
+    width: 100%;
+    background-color: aqua;  
+}
+
+.header-left {
+    border: 1px solid blue;
+    width: 30vw;
+    height: 100%;
+}
+
+.header-right {
+    border: 1px solid green;
+    width: 30vw;
+    height: 100%;
+}
 
 /* MAIN */
 
