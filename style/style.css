@@ -36,7 +36,17 @@ h2 {
     font-weight: 700;
 }
 
-h3 {}
+h3 {
+    font-size: 1.25rem;
+}
+
+h4 {
+    font-size: .75rem;
+}
+
+h5 {
+    font-size: .8rem;
+}
 
 /* HEADER */
 
@@ -133,12 +143,21 @@ div.plans-container {
     width: 100%;
 } 
 
-section.business-plans h2 {
-    margin-bottom: 2.3rem;
+section.business-plans input {
+    margin: 3.2rem 0;
+}
+
+input {
+    height: 1rem;
+    width: 1rem;
+    margin-right: 0.5rem;
 }
 
 section.business-plans label {
     font-size: .8rem;
+    line-height: 1rem;
+    margin-right: 2rem;
+
 }
 
 div.plan-card {
@@ -160,13 +179,64 @@ div.product-card-header {
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 40px;
+    height: 38px;
     border-bottom: 1px solid #dedee0;
 }
 
+div.product-card-header i {
+    margin-right: .3rem;
+}
+
 div.product-card-main {
-    padding: 1.5rem;
-    
+    padding: 1.5rem 1.8rem;
+}
+
+div.product-card-main h3 {
+    margin-bottom: .9rem;
+}
+
+div.product-card-main h4 {
+    margin-bottom: .7rem;
+}
+
+div.product-card-main p {
+    font-weight: 400;
+}
+
+div.product-card-main ul {
+    margin-bottom: 1.6rem;
+}
+
+div.product-card-main ul li {
+    align-items: flex-start;
+
+    line-height: .8rem;
+    margin-bottom: 1.1rem;
+}
+
+div.product-card-main ul li i{
+    margin-right: .3rem;
+}
+
+div.product-card-main button {
+    font-size: .8rem;
+    margin-bottom: 1.4rem;
+}
+
+div.product-card-main a {
+    color: blue;
+    text-decoration: underline;
+    font-size: .8rem;
+}
+
+div.product-card-main hr {
+    width: 20%;
+    margin: 2rem 0;
+    border: 1px solid #e9e9ea;
+}
+
+div.product-card-main h5 {
+   margin-bottom: 1.4rem;
 }
 
 /* Partners*/
@@ -349,6 +419,7 @@ div.footer-language {
 }
 
 .radio-button {
+    
 
 }
 
@@ -362,4 +433,8 @@ div.footer-language {
 .bg-color-magenta {
     background-color: #61082b;
     border: 2px solid black;
+}
+
+.txt-blue{
+color:#0061ff
 }
