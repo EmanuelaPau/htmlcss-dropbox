@@ -187,16 +187,13 @@ section.dropbox-business-perks{
     flex-wrap: wrap;
 
     margin-bottom: 3.5rem;
-    background-color: antiquewhite;
 }
 
 div.dropbox-business-card {
     flex-direction: column;
-    
-    width: calc((100% / 3) - 3%);
 
-    height: 400px;
-    background-color: #0061ff;
+    width: calc((100% / 3) - 3%);
+    margin-bottom: 2rem;
 }
 
 /* FOOTER */
