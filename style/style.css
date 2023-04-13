@@ -200,6 +200,29 @@ div.dropbox-business-teams {
     margin-bottom: 3.5rem;
 }
 
+/* Designit */
+
+section.designit-container {
+    justify-content: space-between;
+    width: 100%;
+    background-color: bisque;
+
+    margin-bottom: 3.5rem;
+}
+
+div.logo-square-container{
+    flex-wrap: wrap;
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+    background-color: aqua;
+}
+
+div.logo-square {
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    border: 2px solid red;
+}
+
 /* FOOTER */
 
 /* UTILITIES */
