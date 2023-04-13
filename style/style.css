@@ -136,6 +136,12 @@ div.plan-card {
 
     width: calc((100% / 3) - 3.5%);
     border: 1px solid #dedee0;
+
+    margin-bottom: 2rem;
+}
+
+div.big-card {
+    width: 100%;
 }
 
 div.product-card-header {
@@ -149,7 +155,7 @@ div.product-card-header {
 
 div.product-card-main {
     padding: 1.5rem;
-    flex-direction: column;
+    
 }
 
 /* FOOTER */
@@ -158,6 +164,14 @@ div.product-card-main {
 
 .flex {
     display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
 }
 
 .relative {
