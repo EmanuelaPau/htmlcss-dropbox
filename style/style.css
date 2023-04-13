@@ -164,7 +164,7 @@ section.our-partners {
     width: 100%;
     height: 500px;
 
-    margin-bottom: 50px;
+    margin-bottom: 3.5rem;
 }
 
 div.our-partners-img-container{
@@ -178,6 +178,25 @@ div.our-partners-img-container img{
 div.our-partners-text {
     padding: 3rem 2rem;
     width: 45%;
+}
+
+/* Dropbox business perks */
+
+section.dropbox-business-perks{
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin-bottom: 3.5rem;
+    background-color: antiquewhite;
+}
+
+div.dropbox-business-card {
+    flex-direction: column;
+    
+    width: calc((100% / 3) - 3%);
+
+    height: 400px;
+    background-color: #0061ff;
 }
 
 /* FOOTER */
