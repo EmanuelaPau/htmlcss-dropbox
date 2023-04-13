@@ -134,10 +134,6 @@ img.jumbo-img {
 
 /* Pacchetti e prezzi */
 
-section.business-plans {
-    margin-top: 140px;
-}
-
 div.plans-container {
     justify-content: space-between;
     width: 100%;
@@ -172,6 +168,7 @@ div.plan-card {
 
 div.big-card {
     width: 100%;
+    margin-bottom: 140px;
 }
 
 div.product-card-header {
@@ -237,6 +234,21 @@ div.product-card-main hr {
 
 div.product-card-main h5 {
    margin-bottom: 1.4rem;
+}
+
+div.product-card-main-text {
+    width: 70%;
+}
+
+div.product-card-main-text h4{
+    margin-bottom: 2.5rem;
+}
+
+.product-card-main-big {
+    justify-content: space-between;
+
+    padding: 1.5rem 1.8rem 1rem;
+
 }
 
 /* Partners*/
@@ -416,6 +428,10 @@ div.footer-language {
 
 .border-none {
     border: none;
+}
+
+.margin-bottom-big {
+    margin-bottom: 140px;
 }
 
 .radio-button {
