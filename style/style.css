@@ -10,6 +10,11 @@ body{
     font-size: .85rem;
 }
 
+footer {
+    background-color: #000000;
+    color: white;
+}
+
 ul {
     list-style: none;
 }
@@ -273,8 +278,18 @@ div.accordion {
     justify-content: space-between;
 }
 
-
 /* FOOTER */
+
+section.footer-container {
+    justify-content: space-between;
+}
+
+div.footer-column {
+    width: calc((100% / 5) - 3%);
+    height: 600px;
+    background-color: #a2d39b;
+    border-color: 2px solid white;
+}
 
 /* UTILITIES */
 
