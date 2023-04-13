@@ -21,7 +21,9 @@ a {
 
 /* Texts */
 
-h1 {}
+h1 {
+    font-size: 4rem;
+}
 
 h2 {}
 
@@ -70,6 +72,21 @@ ul.header-navbar > li {
 
 /* MAIN */
 
+div.jumbo-details {
+    justify-content: space-between;
+    width: 100%;
+}
+
+div.jumbo-texts {
+    width: calc(30% - 20px);
+    border:2px #0061ff;
+}
+
+div.jumbo-img-container {
+    width: 70%;
+    background-color: aqua;
+}
+
 /* FOOTER */
 
 /* UTILITIES */
@@ -80,6 +97,20 @@ ul.header-navbar > li {
 
 .relative {
     position: relative;
+}
+
+section.jumbotron {
+    background-color: #b4d0e7;
+    width: 100%;
+    height: 650px;
+}
+
+.container-large {
+    padding-top: 7rem;
+    background-color: red;
+    max-width: 1080px;
+    height: 700px;
+    margin: 0 auto;
 }
 
 .button {
