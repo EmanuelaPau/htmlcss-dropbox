@@ -163,20 +163,21 @@ div.product-card-main {
 section.our-partners {
     width: 100%;
     height: 500px;
-    background-color:#b4d0e7;
+
     margin-bottom: 50px;
 }
 
 div.our-partners-img-container{
-    background-color: bisque;
     width: 55%;
-    height: 500px;
+}
+
+div.our-partners-img-container img{
+    width: 100%;
 }
 
 div.our-partners-text {
-    border: 2px solid red;
+    padding: 3rem 2rem;
     width: 45%;
-    height: 500px;
 }
 
 /* FOOTER */
