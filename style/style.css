@@ -188,7 +188,7 @@ div.product-card-header i {
 }
 
 div.product-card-main {
-    padding: 1.5rem 1.8rem;
+    padding: 1.5rem 1.8rem 0;
 }
 
 div.product-card-main h3 {
