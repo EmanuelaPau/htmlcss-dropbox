@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+header {
+    justify-content: space-between;
+
+    padding: 1.2rem;
+    height: 70px;
+    width: 100%; 
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: .85rem;
@@ -50,14 +59,7 @@ h5 {
 
 /* HEADER */
 
-section.header-nav {
-    justify-content: space-between;
 
-    padding: 1.2rem;
-    height: 70px;
-    width: 100%; 
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;;
-}
 
 img#header-logo {
     height: 1.3rem;
@@ -96,12 +98,10 @@ ul.header-navbar > li {
 section.jumbotron {
     background-color: #b4d0e7;
     width: 100%;
-    height: 635px;
 }
 
 div.container-large h1 {
     padding-top: 4.3rem;
-    padding-bottom: 2.5rem;
 }
 
 div.jumbo-texts p , div.jumbo-texts button{
@@ -110,7 +110,10 @@ div.jumbo-texts p , div.jumbo-texts button{
 
 div.jumbo-details {
     justify-content: space-between;
-    width: 100%;
+    min-width: 900px;
+
+    position: relative;
+    top: 60px;
 }
 
 div.jumbo-texts {
@@ -120,11 +123,11 @@ div.jumbo-texts {
 
 div.jumbo-texts i {
     font-size: 3rem;
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 
 div.jumbo-img-container {
-    width: 70%;
+    width: 65%;
 }
 
 img.jumbo-img {
@@ -198,6 +201,7 @@ div.product-card-main h4 {
 
 div.product-card-main p {
     font-weight: 400;
+    margin-bottom: 1rem;
 }
 
 div.product-card-main ul {
@@ -261,7 +265,7 @@ section.our-partners {
 }
 
 div.our-partners-img-container{
-    width: 55%;
+    width: 60%;
 }
 
 div.our-partners-img-container img{
@@ -272,6 +276,15 @@ div.our-partners-text {
     padding: 3rem 2rem;
     width: 45%;
 }
+
+div.our-partners-text h3{
+    padding-bottom: 1rem
+}
+
+div.our-partners-text p{
+    padding-bottom: 1rem
+}
+
 
 /* Dropbox business perks */
 
@@ -399,7 +412,7 @@ div.footer-language {
 }
 
 .container-large {
-    max-width: 1080px;
+    max-width: 1030px;
     margin: 0 auto;
 }
 
