@@ -33,6 +33,10 @@ a {
     font-size: .9rem;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 /* Texts */
 
 h1 {
@@ -80,6 +84,10 @@ ul.header-navbar{
 
 ul.header-navbar li a {
     color: #878787;
+}
+
+ul.header-navbar li a:hover {
+    text-decoration: underline;
 }
 
 ul.header-navbar > li {
@@ -430,6 +438,10 @@ div.footer-column ul li{
 
 div.footer-column ul li a{
     color: white;
+}
+
+div.footer-column ul li a:hover{
+    text-decoration: underline;
 }
 
 
