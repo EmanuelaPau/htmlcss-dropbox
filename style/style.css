@@ -57,6 +57,9 @@ h5 {
     font-size: .8rem;
 }
 
+h6 {
+    font-size: .9rem;
+}
 /* HEADER */
 
 
@@ -386,16 +389,16 @@ div.designit-info-cta h2{
 
 /* FAQ */
 
-section.faq {
-    margin-bottom: 2rem;
-}
-
 section.faq h2{
     margin-bottom: 2rem;
 }
 
-div.accordion-container {
-    padding-bottom: 2rem;
+hr {
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+div.accordion-container hr{
+    margin: 2rem 0 2rem
 }
 
 div.accordion {
