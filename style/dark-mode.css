@@ -1,0 +1,8 @@
+:root {
+    --primary-bg:#181818;
+    --primary-txt-color: white;
+}
+
+img#header-logo {
+    filter: invert() hue-rotate(180deg);
+}
