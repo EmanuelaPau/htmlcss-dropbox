@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+*:root {
+    color-scheme: light; /* both supported */
+  }
+
 header {
     justify-content: space-between;
 
