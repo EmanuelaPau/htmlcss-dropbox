@@ -1,12 +1,24 @@
 :root {
-    --primary-bg:#181818;
+    --primary-bg:#282828;
     --primary-txt-color: white;
 
     --bg-jumbo:#15499e;
     --txt-jumbo: white;
+
+    --bg-plan-card-header: white;
+    --txt-card: #181818;
+
+    --txt-link: #4e83d8;
+    --txt-cta: white;
+
+    --bg-accordion rgb(247, 247, 247);; 
 }
 
 img#header-logo {
     filter: invert() hue-rotate(180deg);
 }
 
+div.accordion-questions ul {
+    background-color: var(--bg-accordion);
+    color: var(--txt-card);
+}
