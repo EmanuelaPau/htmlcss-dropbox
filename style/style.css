@@ -8,6 +8,8 @@
 :root {
     --primary-bg:white;
     --primary-txt-color: #121212;
+
+    --bg-jumbo:#b4d0e7;
 }
 
 header {
@@ -117,7 +119,7 @@ ul.header-navbar > li {
 /* Jumbotron  */
 
 section.jumbotron {
-    background-color: #b4d0e7;
+    background-color: var(--bg-jumbo);
     width: 100%;
 }
 

@@ -1,8 +1,11 @@
 :root {
     --primary-bg:#181818;
     --primary-txt-color: white;
+
+    --bg-jumbo:#b4d0e7;
 }
 
 img#header-logo {
     filter: invert() hue-rotate(180deg);
 }
+
