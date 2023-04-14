@@ -19,6 +19,7 @@
     --txt-cta:  #61082b;
 
     --bg-designit: #f5f5f5;
+    --txt-designit: black;
 
     --bg-accordion:white;
 }
@@ -357,7 +358,7 @@ div.designit-container {
     justify-content: space-between;
     width: 100%;
     background-color: var(--bg-designit);
-    color: var(--txt-jumbo);
+    color: var( --txt-designit);
 }
 
 div.logo-square-container{
