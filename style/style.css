@@ -406,11 +406,38 @@ hr {
 
 div.accordion-container{
     align-items: center ;
-    justify-content: space-between; 
+    justify-content: space-between;
+    transition-duration: 1s;
+    transition: all;
+}
+
+div.accordion-container p{
+    margin-top: 2rem;
+   display: none;
+}
+
+div.accordion-container:hover{
+    cursor: pointer;
+ }
+
+ div.accordion-container:hover p{
+    display: inline-block;
 }
 
 div.accordion-questions ul li hr {
     margin: 2rem 0 2rem;
+}
+
+div.accordion-container:hover i.down {
+    display: none;
+}
+
+div.accordion-container i.up {
+    display: none;
+}
+
+div.accordion-container:hover i.up {
+    display: inline-block;
 }
 
 /* FOOTER */
