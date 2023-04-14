@@ -90,6 +90,10 @@ ul.header-navbar li a:hover {
     text-decoration: underline;
 }
 
+ul.header-navbar li a:active {
+    color: #6c6c6c;
+}
+
 ul.header-navbar > li {
     margin-right: 2rem;
 }
