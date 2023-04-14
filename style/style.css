@@ -351,11 +351,17 @@ div.logo-square {
     height: calc(100% / 2);
 }
 
-div.logo-square img{
+div.logo-square img {
     width: 100%;
     padding: 4.5rem;
     object-fit: contain;
     filter: invert();
+
+    transition: all .5s;
+}
+
+div.logo-square img:hover {
+    padding: 5rem;
 }
 
 div.designit-info img{
