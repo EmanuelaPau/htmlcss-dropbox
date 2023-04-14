@@ -163,11 +163,15 @@ input {
 }
 
 section.business-plans label {
+    position: relative;
+
+    cursor: pointer;
+
     font-size: .8rem;
     line-height: 1rem;
-    margin-right: 2rem;
-
+    margin-right: 3rem;
 }
+
 
 div.plan-card {
     flex-direction: column;
@@ -478,10 +482,6 @@ div.footer-column hr{
     border: 1px solid rgba(255, 255, 255, 0.6);
 }
 
-div.footer-language {
-
-}
-
 div.footer-language i {
     margin-right: .8rem;
 }
@@ -580,10 +580,50 @@ div.footer-language ul li a {
     font-size: .85rem;
 }
 
-/* .radio-button {
-    
+/* RADIO BUTTONS  */
+/* Customize the label (the container) */
+label.radio-button-container {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    height: 100%;
+    margin: 3rem 0;
+}
 
-} */
+label p {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    padding-left: 1.3rem;
+}
+
+/* Hide the browser's default radio button */
+
+.radio-button-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+  
+/* Create a custom radio button */
+.radio-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.1rem;
+    width: 1.1rem;
+    background-color: white;
+    border: 2px solid #d4d4d7;
+    border-radius: 50%;
+}
+
+/* When the radio button is checked, add a blue background */
+.radio-button-container input:checked ~ .radio-button {
+    background-color: white;
+    border: 5px solid #005fff;
+}
 
 /* Colors */
 
@@ -627,3 +667,6 @@ color:#0061ff
 .txt-purple {
     color: #61082b;
 }
+
+
+
