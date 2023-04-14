@@ -310,10 +310,6 @@ div.dropbox-business-teams a{
 
 /* Designit */
 
-section.designit {
-    margin-bottom: 5rem;
-}
-
 div.designit-container {
     justify-content: space-between;
     width: 100%;
@@ -339,9 +335,27 @@ div.logo-square {
 
 div.logo-square img{
     width: 100%;
-    padding: 3rem;
+    padding: 4.5rem;
+    object-fit: contain;
     filter: invert();
 }
+
+div.designit-info img{
+    width: 50%;
+    margin-bottom: 2rem;
+}
+
+div.designit-info hr{
+    width: 20%;
+    margin-bottom: 2rem;
+    border: 1px solid #dadadc;
+}
+
+div.designit-info p{
+    margin-bottom: 3rem;
+}
+
+/* cta */
 
 div.designit-info-cta {
     justify-content: center;
@@ -352,8 +366,22 @@ div.designit-info-cta {
 }
 
 div.designit-info-cta h2{
-    width: ;
-    margin-right: 10rem;
+    width: 55%;
+}
+
+.designit-cta-container {
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 4rem 0;
+}
+
+.designit-cta-container h2 {
+    width: 50%;
+}
+
+.designit-cta-container button {
+    padding: .65rem 2.3rem;
 }
 
 /* FAQ */
@@ -467,9 +495,36 @@ div.footer-language {
 
 .bg-color-magenta {
     background-color: #61082b;
-    border: 2px solid black;
+}
+
+.bg-color-lt-blue {
+    background-color: #0093ce;
+}
+
+.bg-color-lt-red {
+    background-color: #ff1c1c;
+}
+
+.bg-color-red {
+    background-color:#d5001f;
+}
+
+.bg-color-extra-lt-blue {
+    background-color: #b4d0e7;
+}
+
+.bg-color-dk-blue {
+    background-color: #0d2481;
+}
+
+.bg-color-gold {
+    background-color: #ffd830;
 }
 
 .txt-blue{
 color:#0061ff
+}
+
+.txt-purple {
+    color: #61082b;
 }
