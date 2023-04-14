@@ -411,22 +411,24 @@ hr {
 div.accordion-container{
     align-items: center ;
     justify-content: space-between;
-    transition-duration: 1s;
-    transition: all;
+    
+    height: 5rem;
+    transition: all 1s;
 }
 
 div.accordion-container p{
     margin-top: 2rem;
-   display: none;
+    display: none;
 }
 
 div.accordion-container:hover{
     cursor: pointer;
+    height: 10rem;
  }
 
  div.accordion-container:hover p{
     display: inline-block;
-}
+} */
 
 div.accordion-questions ul li hr {
     margin: 2rem 0 2rem;
