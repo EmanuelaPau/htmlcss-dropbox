@@ -477,24 +477,6 @@ div.footer-language span {
     margin: 0 auto;
 }
 
-.button {
-    border: none;
-    background-color: #0061ff;
-    border-radius: none;
-    color: white;
-    font-size: .9rem;
-    padding: .5rem .9rem;
-}
-
-.button-white {
-    border: 1px solid black;
-    border-radius: none;
-    background-color: white;
-    color: black
-    font-size: .9rem;
-    padding: .5rem .9rem;
-}
-
 .border-none {
     border: none;
 }
@@ -507,10 +489,53 @@ div.footer-language span {
     padding-bottom: 1rem;
 }
 
-.radio-button {
+/* buttons  */
+
+.button {
+    border: none;
+    background-color: #0061ff;
+    border-radius: none;
+    color: white;
+    font-size: .9rem;
+    padding: .5rem .9rem;
+
+    transition-duration: .3s;
+}
+
+.button-white {
+    border: 1px solid black;
+    border-radius: none;
+    background-color: white;
+    color: black
+    font-size: .9rem;
+    padding: .5rem .9rem;
+
+    transition-duration: .3s;
+    transition: :hover; 
+}
+
+.button:hover {
+    background-color: #357ff8;
+    cursor: pointer;
+}
+
+.button-white:hover {
+    font-size: .88rem;
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: #5093ff;
+}
+
+.button-white:active {
+    font-size: .85rem;
+}
+
+/* .radio-button {
     
 
-}
+} */
 
 /* Colors */
 
