@@ -10,6 +10,7 @@
     --primary-txt-color: #121212;
 
     --bg-jumbo:#b4d0e7;
+    --txt-jumbo:#121212;
 }
 
 header {
@@ -121,6 +122,7 @@ ul.header-navbar > li {
 section.jumbotron {
     background-color: var(--bg-jumbo);
     width: 100%;
+    color: var(--txt-jumbo);
 }
 
 div.container-large h1 {
