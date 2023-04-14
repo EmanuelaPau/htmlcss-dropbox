@@ -18,6 +18,8 @@
     --txt-link: #4242f2;
     --txt-cta:  #61082b;
 
+    --bg-designit: #f5f5f5;
+
     --bg-accordion:white;
 }
 
@@ -354,8 +356,8 @@ div.dropbox-business-teams a{
 div.designit-container {
     justify-content: space-between;
     width: 100%;
-    background-color: #f5f5f5;
-    color: var(--txt-card);
+    background-color: var(--bg-designit);
+    color: var(--txt-jumbo);
 }
 
 div.logo-square-container{

@@ -11,7 +11,9 @@
     --txt-link: #4e83d8;
     --txt-cta: white;
 
-    --bg-accordion rgb(247, 247, 247);; 
+    --bg-designit: black;
+
+    --bg-accordion: rgb(247, 247, 247);; 
 }
 
 img#header-logo {
@@ -21,4 +23,8 @@ img#header-logo {
 div.accordion-questions ul {
     background-color: var(--bg-accordion);
     color: var(--txt-card);
+}
+
+div.designit-info img{
+    filter: invert();
 }
