@@ -277,33 +277,35 @@ div.our-partners-text {
     width: 45%;
 }
 
-div.our-partners-text h3{
-    padding-bottom: 1rem
-}
-
-div.our-partners-text p{
-    padding-bottom: 1rem
-}
-
-
 /* Dropbox business perks */
 
-section.dropbox-business-perks{
+div.business-cards-container {
     justify-content: space-between;
     flex-wrap: wrap;
+}
 
-    margin-bottom: 3.5rem;
+section.dropbox-business-perks h2{
+    padding-bottom: 2.5rem;
 }
 
 div.dropbox-business-card {
     flex-direction: column;
 
-    width: calc((100% / 3) - 3%);
+    width: calc((100% / 3) - 3.3%);
     margin-bottom: 2rem;
 }
 
+div.dropbox-business-card img{
+    padding-bottom: .5rem;
+}
+
 div.dropbox-business-teams {
+    width: 60%;
     margin-bottom: 3.5rem;
+}
+
+div.dropbox-business-teams a{
+    text-decoration: underline;
 }
 
 /* Designit */
@@ -445,6 +447,10 @@ div.footer-language {
 
 .margin-bottom-big {
     margin-bottom: 140px;
+}
+
+.padding-bottom-texts {
+    padding-bottom: 1rem;
 }
 
 .radio-button {
