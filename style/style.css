@@ -382,11 +382,45 @@ div.logo-square-container{
     height: calc(100vw / 3);
 }
 
-div.designit-info {
+div.info-brands-container {
     width: calc(100vw / 3);
     height: calc(100vw / 3);
+}
+
+div.designit-info {
+    width: 100%;
+    height: 100%;
     padding: 4%;
 }
+
+div.designit-animation {
+    animation-name: designit-animation-loop;
+    animation-duration: 48s;
+}
+
+@keyframes designit-animation-loop {
+    0 {display: inline-block;}
+    6s {display:inline-block;}
+    6.1s {display:none;}
+    48s {display: none;}
+}
+
+
+div.loading-bar {
+    height: .3rem;
+    width: 100%;
+    background-color: #000000;
+    animation-name: loading-bar;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes loading-bar {
+    from {width: 0;}
+    to {width: 100%;}
+  }
+
 
 div.logo-square {
     width: calc(100% / 2);
