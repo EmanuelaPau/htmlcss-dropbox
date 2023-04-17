@@ -147,11 +147,11 @@ li.nav-multi-menu {
     z-index: 1;
 }
 
-.menu-tendina {
+li.nav-why .menu-tendina-why {
     display: none;
 }
 
-.nav-why:hover .menu-tendina.why{
+.nav-why:hover .menu-tendina-why{
     display: inline-block;
 }
 
@@ -192,18 +192,44 @@ div.menu-tendina-column hr{
 }
 
 /* funzioni */
-.nav-functions:hover .menu-tendina.function{
+
+.nav-functions {
+    position: relative;
+}
+
+.nav-functions:hover .menu-tendina-function{
     display: inline-block;
 }
 
+li.nav-functions .menu-tendina-function {
+    display: none;
+}
+
+
 /* Supporto */
-.nav-support:hover .menu-tendina.support{
+.nav-support {
+    position: relative;
+}
+
+.nav-support:hover .menu-tendina-support{
     display: inline-block;
+}
+
+li.nav-support .menu-tendina-support {
+    display: none;
 }
 
 /* Ufficio vendite */
-.nav-ufficio-vendite:hover .menu-tendina.contact{
+.nav-ufficio-vendite {
+    position: relative;
+}
+
+li.nav-ufficio-vendite:hover .menu-tendina-contact{
     display: inline-block;
+}
+
+li.nav-ufficio-vendite .menu-tendina-contact {
+    display: none;
 }
 
 /* MAIN */
