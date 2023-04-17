@@ -430,7 +430,7 @@ div.designit-info {
     0% {opacity: 0%;}
     12.4% {opacity: 0%;}
     12.5% {opacity: 100%;}
-    24.5% {opacity: 100%;}
+    24.9% {opacity: 100%;}
     25% {opacity: 0%;}
     100% {opacity: 0%;}
 }
@@ -452,6 +452,97 @@ div.designit-info {
     37.5% {opacity: 0%;}
     100% {opacity: 0%;}
 }
+
+/* Topps animation */
+
+.topps-animation {
+    animation-name: topps;
+    animation-duration: 48s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes topps {
+    0% {opacity: 0%;}
+    37.4% {opacity: 0%;}
+    37.5% {opacity: 100%;}
+    49.9% {opacity: 100%;}
+    50% {opacity: 0%;}
+    100% {opacity: 0%;}
+}
+
+/* World bicycle relief animation */
+
+.wbr-animation {
+    animation-name: wbr;
+    animation-duration: 48s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes wbr {
+    0% {opacity: 0%;}
+    49.9% {opacity: 0%;}
+    50% {opacity: 100%;}
+    62.4%{opacity: 100%;}
+    62.5%{opacity: 0%;}
+    100% {opacity: 0%;}
+}
+
+/* hearst animation */
+
+.hearst-animation {
+    animation-name: hearst;
+    animation-duration: 48s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes hearst {
+    0% {opacity: 0%;}
+    62.4%{opacity: 0%;}
+    62.5%{opacity: 100%;}
+    74.9%{opacity: 100%;}
+    75%{opacity: 0%;}
+    100% {opacity: 0%;}
+}
+
+/* Lonely Planet animation */
+
+.lp-animation {
+    animation-name: lp;
+    animation-duration: 48s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes lp {
+    0% {opacity: 0%;}
+    74.9%{opacity: 0%;}
+    75%{opacity: 100%;}
+    87.4%{opacity: 100%;}
+    87.5%{opacity: 0%;}
+    100% {opacity: 0%;}
+}
+
+/* Clear Channel Outdoor animation */
+
+.cco-animation {
+    animation-name: cco;
+    animation-duration: 48s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes cco {
+    0% {opacity: 0%;}
+    87.4%{opacity: 0%;}
+    87.5%{opacity: 100%;}
+    99.9%{opacity: 100%;}
+    100% {opacity: 0%;}
+}
+
+
 
 div.loading-bar {
     height: .3rem;
