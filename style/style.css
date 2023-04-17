@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -143,6 +144,10 @@ div.container-large h1 {
 
 div.jumbo-texts p , div.jumbo-texts button{
     margin-bottom: 1.8rem;
+}
+
+div.jumbo-texts a {
+    color: #000000;
 }
 
 div.jumbo-details {
