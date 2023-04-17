@@ -86,6 +86,7 @@ h5 {
 
 h6 {
     font-size: .9rem;
+    font-weight: 400;
 }
 
 /* HEADER */
@@ -464,20 +465,27 @@ div.accordion-container{
     justify-content: space-between;
 
     height: 3rem;
-    transition: all 1s;
+    transition: all .8s;
 }
 
 div.accordion-container p{
+    font-size: .9rem;
     margin-top: 0;
     opacity: 0;
     height: 0;
+    color: #73818e;
 
     transition: all 1s;
+}
+
+div.accordion-container div p a {
+    color: #73818e;
+    text-decoration: underline;
 }
 
 div.accordion-container:hover{
     cursor: pointer;
-    height: 7rem;
+    height: 10rem;
  }
 
  div.accordion-container:hover p{
