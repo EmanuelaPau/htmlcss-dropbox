@@ -370,7 +370,7 @@ div.logo-square-container{
 div.designit-info {
     width: calc(100vw / 3);
     height: calc(100vw / 3);
-    padding: 3rem;
+    padding: 4%;
 }
 
 div.logo-square {
@@ -380,7 +380,7 @@ div.logo-square {
 
 div.logo-square img {
     width: 100%;
-    padding: 4.5rem;
+    padding: 27%;
     object-fit: contain;
     filter: invert();
 
@@ -388,22 +388,22 @@ div.logo-square img {
 }
 
 div.logo-square img:hover {
-    padding: 5rem;
+    padding: 30%;
 }
 
 div.designit-info img{
     width: 50%;
-    margin-bottom: 2rem;
+    margin-bottom: 5%;
 }
 
 div.designit-info hr{
     width: 20%;
-    margin-bottom: 2rem;
+    margin-bottom: 5%;
     border: 1px solid #dadadc;
 }
 
 div.designit-info p{
-    margin-bottom: 3rem;
+    margin-bottom: 10%;
 }
 
 /* cta */
