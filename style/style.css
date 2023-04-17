@@ -614,16 +614,18 @@ button.border-none {
 }
 
 .button-white:hover {
-    font-size: .88rem;
     cursor: pointer;
+    background-color: rgb(243, 243, 243);
 }
 
 .button:active {
-    background-color: #5093ff;
+    background-color: #044aba;
+    text-decoration: underline;
 }
 
 .button-white:active {
-    font-size: .85rem;
+    background-color: rgb(231, 231, 231);
+    text-decoration: underline;
 }
 
 /* RADIO BUTTONS  */
