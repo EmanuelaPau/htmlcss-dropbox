@@ -385,26 +385,73 @@ div.logo-square-container{
 div.info-brands-container {
     width: calc(100vw / 3);
     height: calc(100vw / 3);
+    position: relative;
 }
 
+.info-brands-logo{
+    width: 25%;
+    margin-bottom: 5%;
+}
+
+/* designit block  */
 div.designit-info {
+    position: absolute;
     width: 100%;
     height: 100%;
-    padding: 4%;
+    padding: 15% 4% 4% ;
 }
 
-div.designit-animation {
-    animation-name: designit-animation-loop;
+/* Designit animation block  */
+
+.designit-animation {
+    animation-name: designit;
     animation-duration: 48s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
-@keyframes designit-animation-loop {
-    0 {display: inline-block;}
-    6s {display:inline-block;}
-    6.1s {display:none;}
-    48s {display: none;}
+@keyframes designit {
+    0% {opacity: 100%;}
+    12.4% {opacity: 100%;}
+    12.5% {opacity: 0%;}
+    100% {opacity: 0%;}
 }
 
+/* Asu animation block */
+
+.asu-animation {
+    animation-name: asu;
+    animation-duration: 48s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes asu {
+    0% {opacity: 0%;}
+    12.4% {opacity: 0%;}
+    12.5% {opacity: 100%;}
+    24.5% {opacity: 100%;}
+    25% {opacity: 0%;}
+    100% {opacity: 0%;}
+}
+
+/* UF FLORIDA animation */
+
+.uf-animation {
+    animation-name: uf;
+    animation-duration: 48s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes uf {
+    0% {opacity: 0%;}
+    24.9% {opacity: 0%;}
+    25% {opacity: 100%;}
+    37.4% {opacity: 100%;}
+    37.5% {opacity: 0%;}
+    100% {opacity: 0%;}
+}
 
 div.loading-bar {
     height: .3rem;
@@ -412,8 +459,8 @@ div.loading-bar {
     background-color: #000000;
     animation-name: loading-bar;
     animation-duration: 6s;
-    animation-iteration-count: infinite;
     animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
 @keyframes loading-bar {
@@ -440,14 +487,9 @@ div.logo-square img:hover {
     padding: 30%;
 }
 
-div.designit-info img{
-    width: 50%;
-    margin-bottom: 5%;
-}
-
 div.designit-info hr{
     width: 20%;
-    margin-bottom: 5%;
+    margin-bottom: 8%;
     border: 1px solid #dadadc;
 }
 
