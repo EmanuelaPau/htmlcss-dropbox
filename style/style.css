@@ -160,13 +160,35 @@ li.nav-multi-menu {
     position: absolute;
     top: calc(100% + 1.5rem + 2px); 
     left: 0%;
-    
+    z-index: 2;
+
+    justify-content: space-between;
+
     background-color: white;
     border: 1px solid rgba(128, 128, 128, 0.249);
 }
 
 .menu-tendina-column {
     padding: 1.5rem;
+    width: 13vw;
+}
+
+div.menu-tendina-column ul li{
+    padding: .5rem 0;
+}
+
+div.menu-tendina-column ul li:hover{
+    padding: .5rem 0;
+    background-color: #ebebeb;
+}
+
+div.menu-tendina-column ul li a:hover{
+    text-decoration: none;
+}
+
+div.menu-tendina-column hr{
+    margin: .5rem 0;
+    border: 1px solid rgba(128, 128, 128, 0.249);
 }
 
 /* MAIN */
