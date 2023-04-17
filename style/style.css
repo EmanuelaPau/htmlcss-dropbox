@@ -151,7 +151,7 @@ li.nav-multi-menu {
     display: none;
 }
 
-.nav-why:hover .menu-tendina{
+.nav-why:hover .menu-tendina.why{
     display: inline-block;
 }
 
@@ -189,6 +189,21 @@ div.menu-tendina-column ul li a:hover{
 div.menu-tendina-column hr{
     margin: .5rem 0;
     border: 1px solid rgba(128, 128, 128, 0.249);
+}
+
+/* funzioni */
+.nav-functions:hover .menu-tendina.function{
+    display: inline-block;
+}
+
+/* Supporto */
+.nav-support:hover .menu-tendina.support{
+    display: inline-block;
+}
+
+/* Ufficio vendite */
+.nav-ufficio-vendite:hover .menu-tendina.contact{
+    display: inline-block;
 }
 
 /* MAIN */
