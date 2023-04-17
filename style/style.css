@@ -357,6 +357,15 @@ div.dropbox-business-teams a{
     text-decoration: underline;
 }
 
+a.b-card-link{
+    color: black;
+    text-decoration: underline;
+}
+
+a.b-card-link:hover{
+    text-decoration: none;
+}
+
 /* Designit */
 
 div.designit-container {
