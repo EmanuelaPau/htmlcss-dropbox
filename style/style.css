@@ -542,7 +542,7 @@ div.designit-info {
     100% {opacity: 0%;}
 }
 
-
+/* LOADING BAR  */
 
 div.loading-bar {
     height: .3rem;
@@ -559,10 +559,147 @@ div.loading-bar {
     to {width: 100%;}
   }
 
+  /* COLORED LOGO SQUARE ANIMATION  */
 
 div.logo-square {
     width: calc(100% / 2);
     height: calc(100% / 2);
+}
+
+/* Logo designit border animation  */
+
+.logo-designit {
+    animation-name: logo-designit;
+    animation-duration: 45s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes logo-designit {
+    0% {border: 10px solid rgba(255, 255, 255, 0.527);}
+    12.6% {border: 10px solid rgba(255, 255, 255, 0.527);}
+    12.7% {border: none;}
+    100% {border: none;}
+}
+
+/* Logo Asu border animation  */
+
+.logo-asu {
+    animation-name: logo-asu;
+    animation-duration: 45s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes logo-asu {
+    12.6% {border: none;}
+    12.7% {border: 10px solid rgba(255, 255, 255, 0.527);}
+    25.1% {border: 10px solid rgba(255, 255, 255, 0.527);}
+    25.2% {border: none;}
+}
+
+/* UF FLORIDA logo border animation */
+
+.logo-uf {
+    animation-name: logo-uf;
+    animation-duration: 45s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes logo-uf {
+    25.1% {border: none;}
+    25.2% {border: 10px solid rgba(255, 255, 255, 0.527);}
+    37.7% {border: 10px solid rgba(255, 255, 255, 0.527);}
+    37.8% {border: none;}
+}
+
+/* Topps logo border animation */
+
+.logo-topps {
+    animation-name: logo-topps;
+    animation-duration: 48s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes logo-topps {
+    37.7% {border: none;}
+    37.8%{border: 10px solid rgba(255, 255, 255, 0.527);}
+    50.1% {border: 10px solid rgba(255, 255, 255, 0.527);}
+    50.2% {border: none;}
+}
+
+/* World bicycle relief animation */
+
+.logo-wbr {
+    animation-name: logo-wbr;
+    animation-duration: 48s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes logo-wbr {
+    50.1% {border: none;}
+    50.2% {border: 10px solid rgba(255, 255, 255, 0.527);}
+    62.7%{border: 10px solid rgba(255, 255, 255, 0.527);}
+    62.8%{border: none;}
+}
+
+/* hearst animation */
+
+.logo-hearst {
+    animation-name: logo-hearst;
+    animation-duration: 48s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes logo-hearst {
+    62.7%{border: none;}
+    62.8%{border: 10px solid rgba(255, 255, 255, 0.527);}
+    75.1%{border: 10px solid rgba(255, 255, 255, 0.527);}
+    75.2%{border: none;}
+}
+
+/* Lonely Planet animation */
+
+.logo-lp {
+    animation-name: logo-lp;
+    animation-duration: 48s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes logo-lp {
+    0% {border: none;}
+    75.1%{border: none;}
+    75.2%{border: 10px solid rgba(255, 255, 255, 0.527);}
+    87.6%{border: 10px solid rgba(255, 255, 255, 0.527);}
+    87.7%{border: none;}
+    100% {border: none;}
+}
+
+/* Clear Channel Outdoor animation */
+
+.logo-cco {
+    animation-name: logo-cco;
+    animation-duration: 48s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes logo-cco {
+    0% {border: none;}
+    87.6%{border: none;}
+    87.7%{border: 10px solid rgba(255, 255, 255, 0.527);}
+    100.1%{border: 10px solid rgba(255, 255, 255, 0.527);}
+    100.2% {border: none;}
+}
+
+
+.logo-square-borders {
+    border: 10px solid rgba(255, 255, 255, 0.527);
 }
 
 div.logo-square img {
@@ -574,8 +711,12 @@ div.logo-square img {
     transition: all .5s;
 }
 
-div.logo-square img:hover {
+/* div.logo-square img:hover {
     padding: 30%;
+} */
+
+div.logo-square img:active {
+    border: 10px solid rgba(255, 255, 255, 0.528);
 }
 
 div.designit-info hr{
@@ -866,7 +1007,6 @@ label p {
 
 .bg-color-light-green {
     background-color: #a2d39b;
-    border: 10px solid #d1e9cd;
 }
 
 .bg-color-magenta {
