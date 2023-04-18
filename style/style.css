@@ -308,6 +308,9 @@ section.business-plans label {
     margin-right: 3rem;
 }
 
+span.label-button {
+    margin-left: 1.2rem;
+}
 
 div.plan-card {
     flex-direction: column;
